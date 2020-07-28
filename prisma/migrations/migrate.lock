@@ -1,0 +1,4 @@
+# Prisma Migrate lockfile v1
+
+20200726105932-initial
+20200727203840-user-email-isunique

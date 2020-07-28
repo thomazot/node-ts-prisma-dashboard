@@ -1,0 +1,26 @@
+
+
+### Signin
+
+POST http://localhost:3000/signin HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "thomazot@gmail.com",
+    "password": "123456"
+}
+
+### Users
+POST http://localhost:3000/user HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTk1ODkzNTc4fQ.sZ9PVtU3J5WwUqKrXZkORSohcYfaa6nTtv8qU9tO6G8
+
+{
+    "name": "Thomaz Toyama",
+    "email": "thomazot@gmail.com",
+    "password": "123456"
+}
+
+### User List
+GET http://localhost:3000/user HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk1ODkxNjQwfQ.1cOgQ_KCjmUW0jsES-eQKjvoLhoxDtKlH5oIBg9M8bg
